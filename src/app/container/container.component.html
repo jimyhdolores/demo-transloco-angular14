@@ -1,0 +1,33 @@
+<mat-toolbar color="primary" class="toolbar">
+  <button mat-icon-button (click)="sidenav.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My App</span>
+</mat-toolbar>
+
+<mat-sidenav-container class="sidevav-container">
+  <mat-sidenav #sidenav mode="side" opened class="sidevav-container__sidenav">
+    <mat-nav-list>
+      <mat-list-item>
+        <mat-icon matListIcon>translate</mat-icon>
+        <a>ESPAÑOL</a>
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon matListIcon>translate</mat-icon>
+        <a> INGLES</a>
+      </mat-list-item>
+      <mat-list-item routerLink="/">
+        <mat-icon matListIcon>translate</mat-icon>
+        <a> FORMULARIO CLIENTES</a>
+      </mat-list-item>
+      <mat-list-item routerLink="info">
+        <mat-icon matListIcon>translate</mat-icon>
+        <a> INFORMACION DE LA APP</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <h1>active lang: es</h1>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
