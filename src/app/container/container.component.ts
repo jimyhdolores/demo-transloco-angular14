@@ -5,7 +5,6 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
-import { TranslocoModule } from '@ngneat/transloco';
 
 @Component({
   standalone: true,
@@ -18,7 +17,6 @@ import { TranslocoModule } from '@ngneat/transloco';
     MatIconModule,
     MatListModule,
     MatButtonModule,
-    TranslocoModule,
     RouterModule,
   ],
 })
