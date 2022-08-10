@@ -1,0 +1,10 @@
+{
+  "customerRegistration": "Registro de clientes",
+  "names": "Nombres",
+  "lastName": "Apellidos",
+  "enterYourEmail": "Ingrese su Email",
+  "errors": {
+    "invalidEmail": "Debe ingresar un email valido"
+  },
+  "save": "Guardar"
+}

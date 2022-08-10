@@ -1,0 +1,11 @@
+{
+  "customerRegistration": "Customer registration",
+  "names": "Names",
+  "lastName": "Last Name",
+  "enterYourEmail": "Ienter your email",
+  "errors": {
+    "invalidEmail": "You must enter a valid email"
+  },
+  "save": "Save",
+  "info": "All fields on this form are required"
+}

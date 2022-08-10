@@ -8,11 +8,11 @@
 <mat-sidenav-container class="sidevav-container">
   <mat-sidenav #sidenav mode="side" opened class="sidevav-container__sidenav">
     <mat-nav-list>
-      <mat-list-item>
+      <mat-list-item (click)="clickTranslate('es')">
         <mat-icon matListIcon>translate</mat-icon>
         <a>ESPAÑOL</a>
       </mat-list-item>
-      <mat-list-item>
+      <mat-list-item (click)="clickTranslate('en')">
         <mat-icon matListIcon>translate</mat-icon>
         <a> INGLES</a>
       </mat-list-item>
@@ -27,7 +27,7 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <h1>active lang: es</h1>
+    <h1>active lang: {{ lang }}</h1>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
