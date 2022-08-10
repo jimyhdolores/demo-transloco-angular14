@@ -4,7 +4,7 @@ El proyecto esta hecho en angular 14. Para más información sobre la librería 
 
 ## Instalación de la librería Transloco
 
-Realizamos la instalcion cpn la CLI de angular, ejecute el siguiente comando dentro de su proyecto Angular:
+Realizamos la instalacion cpn la CLI de angular, ejecute el siguiente comando dentro de su proyecto Angular:
 
 ```console
 ng add @ngneat/transloco --project=demo-transloco-angular
